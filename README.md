@@ -1,4 +1,4 @@
-# TypeORM try out
+# RESTful api try out
 
 Steps to run this project:
 
