@@ -28,6 +28,8 @@ export const create: Handler = async (request, response) => {
   const user = new User()
 
   user.name = request.body.name
+  user.email = request.body.email
+
   await userRepository.save(user)
 
   return response.json({

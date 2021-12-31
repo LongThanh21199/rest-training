@@ -1,6 +1,7 @@
-DELETE http://localhost:3000/user/15
+POST http://localhost:3000/user
 Content-Type: application/json
 
 {
-  "name": "Monkey D. Luffy"
+  "name": "Rikky",
+  "email": "rikky@sphinx-software.com"
 }
