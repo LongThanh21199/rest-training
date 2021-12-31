@@ -1,0 +1,6 @@
+DELETE http://localhost:3000/user/15
+Content-Type: application/json
+
+{
+  "name": "Monkey D. Luffy"
+}
