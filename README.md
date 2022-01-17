@@ -35,3 +35,5 @@ yarn typeorm schema:sync
 ```shell
 yarn ts-node src/index.ts
 ```
+
+test
