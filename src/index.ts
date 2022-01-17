@@ -17,4 +17,6 @@ api.use(bodyParser.urlencoded())
 api.use(router)
 api.use(handleError)
 
-api.listen(process.env.PORT || 3000)
+api.listen(process.env.PORT || 3000, () => {
+    console.log(`server running port ` + process.env.PORT)
+})

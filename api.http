@@ -1,7 +1,10 @@
-POST http://localhost:3000/user
+#DELETE http://localhost:3000/user/49
+POST http://localhost:3000/restore/user/49
 Content-Type: application/json
 
 {
-  "name": "Rikky",
-  "email": "rikky@sphinx-software.com"
+  "firstName": "LongVip",
+  "lastName": "Bui",
+  "email": "test01@gmail.com",
+  "password": "99"
 }
